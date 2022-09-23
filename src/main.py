@@ -175,6 +175,7 @@ https://discord.gg/VgFuy4aw3q
 
 > **Graphic Designers** (<@&1017792998064533585>)
 <@734033646423375903>
+<@594791174892683274>
 
 > **Discord Server**
 **Administrators** (<@&1017792865595822171>)
