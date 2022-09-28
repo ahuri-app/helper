@@ -98,7 +98,7 @@ async def on_message(message):
             await message.channel.send(embeds=embeds)
         elif message.content == p+"createinfo":
             embeds = [
-                nextcord.Embed(color=theme_color).set_image(info_img),
+                #nextcord.Embed(color=theme_color).set_image(info_img),
                 nextcord.Embed(title=f"{e_ahuri} What is Ahuri?", description="""
 **Ahuri** is a secure & simple chat app made by <@477683725673693184>. It has **End-to-End Encryption** so no one can see your chats except you or the recipient(s).
 """, color=theme_color).set_thumbnail(ahuri2),
@@ -119,7 +119,7 @@ If you are not able to access any channels please verify yourself in <#101780248
             await message.channel.send(embeds=embeds)
         elif message.content == p+"createlinks":
             embeds = [
-                nextcord.Embed(color=theme_color).set_image(links_img),
+                #nextcord.Embed(color=theme_color).set_image(links_img),
                 nextcord.Embed(title="<:i_links:1021393237170192504> Links", description="""
 **Site:**
 http://18.169.99.65/
@@ -131,7 +131,7 @@ https://discord.gg/VgFuy4aw3q
             await message.channel.send("http://18.169.99.65/")
         elif message.content == p+"createsupport":
             embeds = [
-                nextcord.Embed(color=theme_color).set_image(support_img),
+                #nextcord.Embed(color=theme_color).set_image(support_img),
                 nextcord.Embed(title="<:i_supportteam:1021385236027805696> Support", description="""
 <:i_timeout:1021386093297414165> **If you make a ticket for no reason you will be timed out for a week.**
 """, color=theme_color),
