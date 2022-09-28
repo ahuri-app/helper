@@ -95,7 +95,7 @@ async def on_message(message):
 ||Please also read <#1017795675972444182> if you haven't already||
 """, color=theme_color)
             ]
-            await message.channel.send(embeds=embeds)
+            await message.channel.send(ahuri_card, embeds=embeds)
         elif message.content == p+"createinfo":
             embeds = [
                 #nextcord.Embed(color=theme_color).set_image(info_img),
@@ -116,7 +116,7 @@ Announcements are posted to <#1017795568602447963> and updates on Ahuri is poste
 If you are not able to access any channels please verify yourself in <#1017802489497649245> and then you can gain access to this server.
 """, color=theme_color)
             ]
-            await message.channel.send(embeds=embeds)
+            await message.channel.send(ahuri_card, embeds=embeds)
         elif message.content == p+"createlinks":
             embeds = [
                 #nextcord.Embed(color=theme_color).set_image(links_img),
@@ -127,7 +127,7 @@ http://18.169.99.65/
 https://discord.gg/VgFuy4aw3q
 """, color=theme_color)
             ]
-            await message.channel.send(embeds=embeds)
+            await message.channel.send(ahuri_card, embeds=embeds)
             await message.channel.send("http://18.169.99.65/")
         elif message.content == p+"createsupport":
             embeds = [
@@ -157,7 +157,7 @@ https://discord.gg/VgFuy4aw3q
 **If you have any questions or queries, please ask it in <#1018098169424379964>.**
 """, color=theme_color)
             ]
-            a = await message.channel.send(embeds=embeds)
+            a = await message.channel.send(ahuri_card, embeds=embeds)
             await a.reply("Click the reply to go to the top.")
         elif message.content == p+"createteam":
             embeds = [
@@ -185,7 +185,7 @@ https://discord.gg/VgFuy4aw3q
 <@734033646423375903>
 """, color=theme_color).set_thumbnail(ahuri_bg_round)
             ]
-            await message.channel.send(embeds=embeds)
+            await message.channel.send(ahuri_card, embeds=embeds)
         elif message.content.startswith(p+"eval "):
             evalstr = message.content.split(p+"eval ", 1)[1]
             main_message = await message.channel.send("Working on it...")

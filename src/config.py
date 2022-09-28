@@ -20,6 +20,7 @@ ahuri_bg = "https://cdn.discordapp.com/attachments/1017855060190965830/102469804
 ahuri_bg_round = "https://cdn.discordapp.com/attachments/1017855060190965830/1024692990079402025/round.png"
 ahuri = "https://cdn.discordapp.com/attachments/1017855060190965830/1024698467660087376/black.png"
 ahuri2 = "https://cdn.discordapp.com/attachments/1017855060190965830/1024698205813870622/ahuri_white.png"
+ahuri_card = "https://cdn.discordapp.com/attachments/1017855060190965830/1024727848835096596/ahuri_card.png"
 
 rules_img = "https://cdn.discordapp.com/attachments/1017855060190965830/1017855706344476702/ahuri.png"
 info_img = "https://cdn.discordapp.com/attachments/1017855060190965830/1017855704436068442/info.png"
