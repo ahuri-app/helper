@@ -11,8 +11,15 @@ guilds = [
 
 cogs_dir = "src/cogs/"
 
-ahuri_color_bg_img = "https://cdn.discordapp.com/attachments/1017855060190965830/1018101010616557618/icon_1.png"
-ahuri_black_bg_img = "https://cdn.discordapp.com/attachments/1017855060190965830/1018093455722938379/image_3.png"
+e_ahuri = "<:ahuri:1024669399485001779>"
+e_ahuri_bg = "<:ahuri_bg:1024668714190250015>"
+e_ahuri_b = "<:ahuri_b:1024698890630475847>"
+e_ahuri_w = "<:ahuri_w:1024669007787339856>"
+
+ahuri_bg = "https://cdn.discordapp.com/attachments/1017855060190965830/1024698041648824350/app_icon.png"
+ahuri_bg_round = "https://cdn.discordapp.com/attachments/1017855060190965830/1024692990079402025/round.png"
+ahuri = "https://cdn.discordapp.com/attachments/1017855060190965830/1024698467660087376/black.png"
+ahuri2 = "https://cdn.discordapp.com/attachments/1017855060190965830/1024698205813870622/ahuri_white.png"
 
 rules_img = "https://cdn.discordapp.com/attachments/1017855060190965830/1017855706344476702/ahuri.png"
 info_img = "https://cdn.discordapp.com/attachments/1017855060190965830/1017855704436068442/info.png"

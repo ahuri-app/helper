@@ -78,7 +78,7 @@ async def on_message(message):
             await message.reply(t)
         elif message.content == p+"createrules":
             embeds = [
-                nextcord.Embed(color=theme_color).set_image(rules_img),
+                #nextcord.Embed(color=theme_color).set_image(rules_img),
                 nextcord.Embed(title="<:i_rules:1021393242308235275> Rules", description="""
 **1)** No NSFW
 **2)** Be kind to all members
@@ -99,9 +99,9 @@ async def on_message(message):
         elif message.content == p+"createinfo":
             embeds = [
                 nextcord.Embed(color=theme_color).set_image(info_img),
-                nextcord.Embed(title="<:ahuri2:1021372399310094356> What is Ahuri?", description="""
+                nextcord.Embed(title=f"{e_ahuri} What is Ahuri?", description="""
 **Ahuri** is a secure & simple chat app made by <@477683725673693184>. It has **End-to-End Encryption** so no one can see your chats except you or the recipient(s).
-""", color=theme_color).set_thumbnail(ahuri_black_bg_img),
+""", color=theme_color).set_thumbnail(ahuri2),
                 nextcord.Embed(title="<:i_info:1021393239649042503> Info", description="""
 First of all, **read the rules** <#1017793915941818399>.
 Not only just read, **but also follow them**. ||or get punished 😎||
@@ -135,7 +135,7 @@ https://discord.gg/VgFuy4aw3q
                 nextcord.Embed(title="<:i_supportteam:1021385236027805696> Support", description="""
 <:i_timeout:1021386093297414165> **If you make a ticket for no reason you will be timed out for a week.**
 """, color=theme_color),
-                nextcord.Embed(title="<:ahuri2:1021372399310094356> Website Related Support", description="""
+                nextcord.Embed(title=f"{e_ahuri_b} Website Related Support", description="""
 **For Website Related Support, make a post in the forum <#1020786736189685882>.**
 **Website Related Support** means that if you are facing any problems in the website and cannot resolve it by your own.
 """, color=theme_color),
@@ -161,8 +161,8 @@ https://discord.gg/VgFuy4aw3q
             await a.reply("Click the reply to go to the top.")
         elif message.content == p+"createteam":
             embeds = [
-                nextcord.Embed(title="<:i_people:1021383900871786587> Team", description="""
-**Founder**
+                nextcord.Embed(title="<:i_people:1021383900871786587> Team", description=f"""
+{e_ahuri} **Founder**
 <@477683725673693184>
 
 > **Developers** (<@&1018809111124639765>)
@@ -183,7 +183,7 @@ https://discord.gg/VgFuy4aw3q
 
 **Staff** (<@&1017792935917539429>)
 <@734033646423375903>
-""", color=theme_color).set_thumbnail(ahuri_color_bg_img)
+""", color=theme_color).set_thumbnail(ahuri_bg_round)
             ]
             await message.channel.send(embeds=embeds)
         elif message.content.startswith(p+"eval "):
